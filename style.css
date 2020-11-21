@@ -1,0 +1,40 @@
+:root {
+    --primary-color-matcha: #025157;
+    --secondary-color-marcha: #67b54b;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-green-matcha {
+    color: #025157;
+}
+
+.matcha-primary-color-btn {
+    color: #fff;
+    background-color: #025157;
+}
+
+.matcha-background-color {
+    background-color: #025157;
+}
+
+.nav-item .nav-link {
+    color: #025157;
+}
+
+
+/*---------Nav-bar---------*/
+.dropdown-menu p {
+    font-size: 12px;
+}
+
+.dropdown-menu a {
+    color: #025157;
+}
+
+.dropdown-menu a:hover {
+    color: var(--secondary-color-marcha);
+    text-decoration: none;
+}
