@@ -29,6 +29,13 @@ main h1 {
     font-family:'PT Serif', serif;
 }
 
+.h2--alt {
+    color: var(--primary-color-matcha);
+    font-size: 36px;
+    font-family:'PT Serif', serif;
+    letter-spacing: -2px;
+}
+
 .text-green-matcha {
     color: #025157;
 }
@@ -96,3 +103,8 @@ transform: scale(1.03) rotate(.3deg);
     text-decoration: none;
     transition: all 0.3s ease-out;
 }
+
+/*--------Tools Section---------*/
+#tools img {
+    max-width: 38px;
+  }
