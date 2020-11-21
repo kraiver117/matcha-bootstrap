@@ -9,8 +9,12 @@
     --secondary-color-marcha: #67b54b;
 }
 
-a {
-    text-decoration: none;
+body {
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
 }
 
 main h1 {
@@ -18,8 +22,11 @@ main h1 {
     font-size: 68px;
 }
 
-main p {
-    font-size: 20px;
+.h1--alt {
+    font-size: 55px;
+    font-weight: 700;
+    color: var(--primary-color-matcha);
+    font-family:'PT Serif', serif;
 }
 
 .text-green-matcha {
@@ -57,4 +64,35 @@ main p {
 .dropdown-menu a:hover {
     color: var(--secondary-color-marcha);
     text-decoration: none;
+}
+
+/*------Top Features -----*/
+.group__card1 .card {
+    border: 0;
+}
+  
+.group__card1 .card-header {
+box-shadow: 0 8px 24px rgba(0,0,0,.1);
+border: 1px solid #dadada;
+background-color: transparent;
+border-radius: 9px;
+overflow: hidden;
+}
+
+.group__card1 img {
+transition: all .3s ease-in-out;
+}
+
+.group__card1 img:hover {
+transform: scale(1.03) rotate(.3deg);
+}
+
+.card-body a {
+    color: #000;
+}
+
+.card-body a:hover {
+    color: var(--secondary-color-marcha);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
 }
