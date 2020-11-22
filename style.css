@@ -159,6 +159,18 @@ transform: scale(1.03) rotate(.3deg);
     bottom:-50px; 
 }
 
+/*--------Compare Section-------*/
+.h1-table {
+    color: var(--primary-color-matcha);
+    font-size: 26px;
+    font-family:'PT Serif', serif;
+}
+
+.table td {
+    text-align: center;   
+    vertical-align: middle !important;
+ }
+
 /*---------Podcast & blog section--------*/
 .imgs-mock {
     top:0;
