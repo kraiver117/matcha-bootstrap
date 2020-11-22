@@ -41,7 +41,7 @@ main h1 {
 }
 
 .matcha-primary-color-btn {
-    color: #fff;
+    color: #fff !important;
     background-color: #025157;
 }
 
@@ -137,6 +137,27 @@ transform: scale(1.03) rotate(.3deg);
 #tools img {
     max-width: 38px;
   }
+
+/*------Carousel Section--------*/
+.carousel-item .card > img {
+    height: 320px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-controls{
+    position:relative; 
+    width:300px;
+    margin:0 auto;
+}
+
+.carousel-indicators{
+    bottom:-50px; 
+}
 
 /*---------Podcast & blog section--------*/
 .imgs-mock {
