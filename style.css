@@ -76,6 +76,17 @@ main h1 {
     color: var(--secondary-color-marcha);
 }
 
+.link_matcha-green-dark {
+    color: #135359;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link_matcha-green-dark:hover {
+    color: var(--secondary-color-marcha);
+}
+
 
 /*---------Nav-bar---------*/
 .dropdown-menu p {
@@ -126,3 +137,27 @@ transform: scale(1.03) rotate(.3deg);
 #tools img {
     max-width: 38px;
   }
+
+/*---------Podcast & blog section--------*/
+.imgs-mock {
+    top:0;
+    right: 0;
+}
+
+.imgs-mock img {
+    max-width: 190px;
+}
+
+.imgs-mock:hover {
+    transition: all 0.5 ease-in-out;
+}
+
+#img-mock-1 {
+    left: 0%;
+    bottom: -5%;
+}
+
+#img-mock-2 {
+    right: -30%;
+    bottom: -20%;
+}
