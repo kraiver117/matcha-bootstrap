@@ -47,7 +47,7 @@ main h1 {
 
 .matcha-secondary-color-btn {
     background-color: var(--secondary-color-marcha);
-    color:#fff;
+    color:#fff !important;
 }
 
 .matcha-background-color {
@@ -56,6 +56,24 @@ main h1 {
 
 .nav-item .nav-link {
     color: #025157;
+}
+
+.link_matcha {
+    color: #4a4a4a;
+}
+
+.link_matcha:hover {
+    color: var(--secondary-color-marcha);
+    text-decoration: none;
+}
+
+.link_matcha-green-light {
+    color: var(--secondary-color-marcha);
+    text-decoration: none;
+}
+
+.link_matcha-green-light:hover {
+    color: var(--secondary-color-marcha);
 }
 
 
