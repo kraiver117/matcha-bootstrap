@@ -336,6 +336,10 @@ transform: scale(1.03) rotate(.3deg);
 /*------Media Queries-------*/
 @media (min-width : 1200px) {
 
-    .container { max-width: 1350px !important; } 
+    .container { 
+        max-width: 1350px !important; 
+        margin-top: 115px !important;
+        margin-bottom: 115px !important;
+    } 
 
 }
