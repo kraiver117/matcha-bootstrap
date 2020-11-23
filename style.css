@@ -333,6 +333,11 @@ transform: scale(1.03) rotate(.3deg);
     bottom: -20%;
 }
 
+/*----- Footer -----*/
+.footer-first-section {
+    padding: 100px !important;
+}
+
 /*------Media Queries-------*/
 @media (min-width : 1200px) {
 
@@ -342,4 +347,10 @@ transform: scale(1.03) rotate(.3deg);
         margin-bottom: 115px !important;
     } 
 
+}
+
+@media (max-width: 420px) {
+    .footer-first-section {
+        padding: 10px !important;
+    }
 }
