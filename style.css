@@ -350,6 +350,10 @@ transform: scale(1.03) rotate(.3deg);
 }
 
 @media (max-width: 420px) {
+    body {
+        text-align: center;
+    }
+
     .footer-first-section {
         padding: 10px !important;
     }
